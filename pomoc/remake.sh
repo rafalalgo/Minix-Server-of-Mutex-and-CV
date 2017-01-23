@@ -4,7 +4,7 @@
 
 service down cv
 rm -r /usr/src/servers/cv
-cp -r /mnt/project/servers/cv /usr/src/servers/
+cp -r /mnt/minix/projekt/servers/cv /usr/src/servers/
 cd /usr/src/servers/cv ; make ; make install
-cd /mnt/stuff/
+cd /mnt/minix/pomoc/
 service up /usr/sbin/cv

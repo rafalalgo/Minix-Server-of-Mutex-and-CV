@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="projekt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rafal_algo/MinixProject/projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/rafal_algo/MinixProject/projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/rafal_algo/MinixProject/projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projekt">
+				<Option output="/home/rafal_algo/MinixProject/projekt/cmake-build-debug/projekt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafal_algo/MinixProject/projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 projekt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projekt/fast">
+				<Option output="/home/rafal_algo/MinixProject/projekt/cmake-build-debug/projekt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafal_algo/MinixProject/projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 projekt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafal_algo/MinixProject/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/etc/usr/o_rc">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/etc/usr/rc">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/include/Makefile">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/include/cv.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/include/o_Makefile">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/lib/libc/sys-minix/cv.c">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/cv/includes.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/cv/main.c">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/cv/queue.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/pm/forkexit.c">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/pm/o_forkexit.c">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/pm/o_proto.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/pm/o_signal.c">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/pm/o_utility.c">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/pm/proto.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/pm/signal.c">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/servers/pm/utility.c">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="/home/rafal_algo/MinixProject/projekt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

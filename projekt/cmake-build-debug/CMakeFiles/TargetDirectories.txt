@@ -1,0 +1,3 @@
+/home/rafal_algo/MinixProject/projekt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rafal_algo/MinixProject/projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rafal_algo/MinixProject/projekt/cmake-build-debug/CMakeFiles/projekt.dir

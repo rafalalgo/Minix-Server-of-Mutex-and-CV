@@ -2,8 +2,8 @@
 
 # cleans all the unnecessary files after tests and installation
 
-rm /mnt/stuff/results/installation/*
-rm /mnt/stuff/results/tests/*
+rm /mnt/minix/pomoc/results/installation/*
+rm /mnt/minix/pomoc/results/tests/*
 
-rm /mnt/tests/bin/*
-rm /mnt/tests/out/*
+rm /mnt/minix/testy/bin/*
+rm /mnt/minix/testy/out/*
