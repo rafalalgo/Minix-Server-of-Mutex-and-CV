@@ -1,57 +1,57 @@
-#ifndef _QUEUE_H
-#define _QUEUE_H
+#ifndef _kolejka_H
+#define _kolejka_H
 
 #include "includes.h"
 
-typedef struct queue_item queue_item_t; 
-typedef struct queue queue_t;
+typedef struct element element_t;
+typedef struct kolejka kolejka_t;
 
-struct queue_item {
-    struct queue_item *next;
-    int process;
+struct element {
+    struct element *nastepny;
+    int proces;
 };
 
-struct queue {
-    queue_item_t *front;
-    queue_item_t *end;
+struct kolejka {
+    element_t *start;
+    element_t *koniec;
 };
 
-queue_t *utworzKolejke() {
-    queue_t *q = malloc(sizeof(queue_t));
-    q->front = malloc(sizeof(queue_item_t));
-    q->end = malloc(sizeof(queue_item_t));
-    q->front->next = q->end;
-    q->end->next = NULL;
+kolejka_t *utworzKolejke() {
+    kolejka_t *q = malloc(sizeof(kolejka_t));
+    q->start = malloc(sizeof(element_t));
+    q->koniec = malloc(sizeof(element_t));
+    q->start->nastepny = q->koniec;
+    q->koniec->nastepny = NULL;
     return q;
 }
 
-void wstaw(queue_t *q, int process) {
-    queue_item_t *last = q->front;
-    while (last->next != q->end) {
-        last = last->next;
+void wstaw(kolejka_t *q, int proces) {
+    element_t *last = q->start;
+    while (last->nastepny != q->koniec) {
+        last = last->nastepny;
     }
-    queue_item_t *new_item = malloc(sizeof(queue_item_t));            
-    new_item->process = process;
-    last->next = new_item;
-    new_item->next = q->end;
+    element_t *nowy_element = malloc(sizeof(element_t));
+    nowy_element->proces = proces;
+    last->nastepny = nowy_element;
+    nowy_element->nastepny = q->koniec;
 }
 
-int pierwszyKolejka(queue_t *q) {
-    queue_item_t *first = q->front->next;
-    int process = first->process;
-    q->front->next = first->next;
+int pierwszyKolejka(kolejka_t *q) {
+    element_t *first = q->start->nastepny;
+    int proces = first->proces;
+    q->start->nastepny = first->nastepny;
     free(first);
-    return process;
+    return proces;
 }
 
-int czyPusto(queue_t *q) {
-    return q->front->next == q->end;
+int czyPusto(kolejka_t *q) {
+    return q->start->nastepny == q->koniec;
 }
 
-void usunElement(queue_t *q, queue_item_t *item) {            
+void usunElement(kolejka_t *q, element_t *item) {
     FOR_EACH(i, q) {
-        if (i->next == item) {
-            i->next = item->next;
+        if (i->nastepny == item) {
+            i->nastepny = item->nastepny;
             free(item);
             return;
         }

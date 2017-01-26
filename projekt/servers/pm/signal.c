@@ -690,6 +690,7 @@ struct mproc *rmp;		/* which process */
   m.PM_PROC = rmp->mp_endpoint;
 
   tell_vfs(rmp, &m);
+  // informuje cv ze jakis procesik to dostal sygnal
   tell_cv(rmp, &m, 5); // CS_EINTR
 
   /* Also tell VM. */

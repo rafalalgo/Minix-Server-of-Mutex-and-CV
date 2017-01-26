@@ -39,7 +39,6 @@ void wyslijWiadomosc(int typ, int to);
 int indeksUzywanegoMutexa(int numerMutexu); 
 int indeksUzywanegoCv(int numerCv);
 
-int usunProcesKolejkiMutexowEINTR(int proces);
 void wyslijEINTR(int proces);
 
 void usunZakonczonyProcesCV(int i, int proces_i);

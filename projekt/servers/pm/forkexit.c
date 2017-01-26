@@ -328,6 +328,7 @@ int dump_core;			/* flag indicating whether to dump core */
   }
 
   tell_vfs(rmp, &m);
+  // poinfirmuj cv ze byl sobie jaki proces co sie zakonczyl
   tell_cv(rmp, &m, 6); // CS_EXIT
 
   if (rmp->mp_flags & PRIV_PROC)
