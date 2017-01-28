@@ -6,7 +6,7 @@ service down cv
 
 cp -r /mnt/minix/projekt/* /usr/src/
 
-rm /mnt/pomoc/out/*
+rm /mnt/minix/pomoc/out/*
 
 cd /usr/src/etc/usr/ ; make install
 cd /usr/src/include/ ; make ; make install

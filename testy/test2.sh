@@ -130,5 +130,3 @@ wait
 mdiff u2t6r3.g1.out u2t6r3.out
 mdiff u2t6r3.g2.out u2t6r3.out
 mdiff u2t6r3.g3.out u2t6r3.out
-
-

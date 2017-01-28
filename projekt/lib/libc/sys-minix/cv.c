@@ -1,7 +1,7 @@
 #include <cv.h>
 #include <errno.h>
 #include <lib.h>
-#include <minixrs.h>
+#include <minix/rs.h>
 
 // funkcja pobieraja identyfikator serwera cv
 static int get_cv() {

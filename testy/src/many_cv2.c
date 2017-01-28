@@ -24,9 +24,9 @@ int main(int argc, char* argv[]){
 		fail("wrong number of processes");
 	}
 
-	cv1= rand();
-	cv2= rand();
-	mutex_id= rand();
+	cv1= rand()%1000;
+	cv2= rand()%1000;
+	mutex_id= rand()%1000;
 	cs_lock(mutex_id);
 	for (i=0; i<procs; i++){
 		ch= fork();

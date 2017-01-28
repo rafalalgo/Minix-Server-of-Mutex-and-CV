@@ -10,7 +10,7 @@
 #include <minix/sysutil.h>
 #include <minix/syslib.h>
 
-#define FOR_EACH(item, q) for (queue_item_t* item = q->front; item != q->end; item = item->next)
+#define FOR_EACH(item, q) for (element_t* item = q->start; item != q->koniec; item = item->nastepny)
 #define FOR(i, a, b) for((i) = (a); (i) <= (b); (i)=(i)+1)
 #define FOR_D(i, a, b) for((i) = (a); (i) >= (b); (i) = (i) - 1)	
 
@@ -42,6 +42,6 @@ int indeksUzywanegoCv(int numerCv);
 void wyslijEINTR(int proces);
 
 void usunZakonczonyProcesCV(int i, int proces_i);
-void usunZakonczonyProces(int proces)
+void usunZakonczonyProces(int proces);
 
 #endif
