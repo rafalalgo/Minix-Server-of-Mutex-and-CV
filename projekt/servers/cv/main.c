@@ -94,20 +94,6 @@ void obslugaWiadomosci(message m) {
             break;
     }
 
-    int i = 0;
-    int j = 0;
-
-    FOR(i, 0, MAX_CV - 1) {
-        if(CV[i].uzywany == 1) {
-            int count = 0;
-            printf("Zdarzenie %d jest oczekiwany przez %d osob: ", CV[i].numer, CV[i].size);
-            FOR(j, 0, CV[i].size - 1) {
-                printf("(%d, %d) ", CV[i].procesy[j], CV[i].muteksy[j]);
-            }
-            printf("\n");
-        }
-    }
-
     if (typ < 5 && result != EDONTREPLY) {
         // jezeli wiadomosc jest taka ze powinnismy na nia wyslac odpowiedz uzytkownikowi to mu ja wysylamy
         wyslijWiadomosc(result, aktualnyProces);
